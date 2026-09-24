@@ -26,7 +26,7 @@
   /* Cores do tema claro */
   --paper: #F6F7FC;          /* fundo da página */
   --surface: #FFFFFF;        /* fundo das seções alternadas e dos cartões */
-  --ink: #050811;           /* texto principal */
+  --ink: #020304;           /* texto principal */
   --ink-soft: #282b39;       /* texto secundário */
   --line: #DCE1F2;           /* linhas e bordas */
   --mist: #bcc0d3;           /* fundos suaves em azul */
@@ -64,7 +64,7 @@
 [data-theme="dark"] {
   color-scheme: dark;
 
-  --paper: #000000;
+  --paper:  #421964;
   --surface: #ccd0e4;
   --ink: #EEF1FF;
   --ink-soft: #363b51;
@@ -213,7 +213,7 @@ button { font: inherit; color: inherit; }
 .tags--lg li {
   padding: .5rem .95rem;
   border: 1px solid var(--line);
-  background: var(--surface);
+  background:#9923e8;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -426,8 +426,8 @@ button { font: inherit; color: inherit; }
 .section__lead {
   max-width: 40rem;
   margin-top: 1rem;
-  color: var(--ink-soft);
-  font-size: 1.125rem;
+  color:#ccb9e8;
+  font-size: 1.5rem;
 }
 
 .about__grid {
@@ -509,6 +509,7 @@ button { font: inherit; color: inherit; }
 
 
 /* 7. PROJETOS ------------------------------------------------------------ */
+
 .filter {
   display: flex;
   flex-wrap: wrap;
@@ -553,9 +554,9 @@ button { font: inherit; color: inherit; }
   flex-direction: column;
   grid-column: span var(--s-std);
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 2px solid var(--line);
   border-radius: var(--r-lg);
-  background: var(--surface);
+  background:#6D4AE0;
 }
 .card--wide { grid-column: span var(--s-wide); }
 .card--side { grid-column: span var(--s-side); }
@@ -616,11 +617,11 @@ button { font: inherit; color: inherit; }
   line-height: 1.1;
 }
 .card--wide .card__title,
-.card--side .card__title { font-size: 1.75rem; }
+.card--side .card__title { font-size: 1.80rem; }
 .card__kind {
   margin-top: .2rem;
-  color: var(--ink-soft);
-  font-size: .9375rem;
+  color:#d9d0e0;
+  font-size: 1.5rem;
 }
 
 .card__meta {
@@ -820,7 +821,7 @@ button { font: inherit; color: inherit; }
 /* 10. CONTATO ------------------------------------------------------------ */
 .contact {
   padding-block: clamp(4.5rem, 9vw, 7.5rem);
-  background: var(--band);
+  background:#b189ed;
   color: #FFFFFF;
 }
 .contact :focus-visible { outline-color: var(--sun); }
@@ -900,7 +901,7 @@ button { font: inherit; color: inherit; }
 .site-footer {
   padding-block: 2rem;
   border-top: 1px solid var(--line);
-  color: var(--ink-soft);
+  color:white;
   font-size: .9375rem;
 }
 .site-footer__inner {
