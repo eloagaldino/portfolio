@@ -270,7 +270,7 @@ button { font: inherit; color: inherit; }
   display: block;
   padding: .55rem .95rem;
   border-radius: 999px;
-  color: var(--ink-soft);
+  color:#f1f2f7;
   font-weight: 500;
   text-decoration: none;
   transition: color .2s, background-color .2s;
